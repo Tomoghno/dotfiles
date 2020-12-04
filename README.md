@@ -1,2 +1,2 @@
-# Alacritty Config
-My Alacritty Config.
+# Dotfiles
+My dotfiles.
