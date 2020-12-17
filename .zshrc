@@ -96,7 +96,7 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 #
 # Aliases
-alias shop="io.elementary.appcenter"
+alias pop-shop="io.elementary.appcenter"
 alias refresh="sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y && sudo apt autoclean && flatpak update -y"
 alias lock='xdg-screensaver lock'
 
