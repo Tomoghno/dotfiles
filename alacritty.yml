@@ -1,13 +1,3 @@
-# Copyright (c) 2017-present Arctic Ice Studio <development@arcticicestudio.com>
-# Copyright (c) 2017-present Sven Greb <code@svengreb.de>
-
-# Project:    Nord Alacritty
-# Version:    0.1.0
-# Repository: https://github.com/arcticicestudio/nord-alacritty
-# License:    MIT
-# References:
-#   https://github.com/alacritty/alacritty
-
 env:
   # TERM variable
   #
@@ -79,17 +69,17 @@ font:
   bold:
     family: MesloLGS NF
     # Style can be specified to pick a specific face.
-    # style: Bold
+    style: Bold
 
   # The italic font face
   italic:
     family: MesloLGS NF
     # Style can be specified to pick a specific face.
-    # style: Italic
+    style: Italic
   size: 12.0
     
  # Opacity
-background_opacity: 0.85
+background_opacity: 0.90
 
 window:
 
@@ -98,7 +88,7 @@ window:
     y: 2
   
  # Window title
-  title: Alacritty
+  title: Terminal
   dynamic_title: false
   
   # Window dimensions (changes require restart)
