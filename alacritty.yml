@@ -85,7 +85,7 @@ window:
 
   padding:
     x: 0
-    y: 2
+    y: 0
   
  # Window title
   title: Terminal
