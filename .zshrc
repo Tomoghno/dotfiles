@@ -96,9 +96,11 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 #
 # Aliases
-alias pop-shop="io.elementary.appcenter"
-alias refresh="sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y && sudo apt autoclean && flatpak update -y"
+alias refresh="sudo pacman -Syu -y && flatpak update -y"
 alias lock='xdg-screensaver lock'
+alias zconf='gedit /home/tomoghno/.zshrc'
+alias pkg='sudo pacman'
+alias krita='/home/tomoghno/Documents/Applications/Krita'
 
 # some more ls aliases
 alias ll='exa -alF'
