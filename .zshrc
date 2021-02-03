@@ -126,7 +126,9 @@ alias refresh="paru -Syu && flatpak update -y"
 alias lock='xdg-screensaver lock'
 alias zconf='gedit /home/tomoghno/.zshrc'
 alias pkg='sudo pacman'
+alias pak='flatpak --user'
 alias yay='paru'
+alias vim='nvim'
 
 # some more ls aliases
 alias ls='exa --icons --color=always --group-directories-first'
@@ -149,5 +151,3 @@ alias rm='rm -i'
 
 # terminal rickroll
 alias rr='curl -s -L https://raw.githubusercontent.com/keroserene/rickrollrc/master/roll.sh | bash'
-# sleep 10; alert
-alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
