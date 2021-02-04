@@ -7,7 +7,7 @@
 #   ██║   ██████╔╝
 #   ╚═╝   ╚═════╝ 
 #
-# A customized init.vim for neovim (https://neovim.io/)
+# A customized .bashrc
 
 
 ##

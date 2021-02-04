@@ -6,7 +6,7 @@
 #   ██║   ██████╔╝
 #   ╚═╝   ╚═════╝ 
 #
-# A customized init.vim for neovim (https://neovim.io/)
+# A customized .zshrc
 
 
 # If you come from bash you might have to change your $PATH.
