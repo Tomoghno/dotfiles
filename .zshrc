@@ -1,3 +1,14 @@
+#
+#████████╗ ██████╗
+#╚══██╔══╝██╔════╝	Tomoghno Sen (DoodleCraft)
+#   ██║   ╚█████╗ 	https://www.youtube.com/channel/UCrLuSGTUJRmI8w3aPMN8Stw
+#   ██║    ╚═══██╗	https://github.com/Tomoghno
+#   ██║   ██████╔╝
+#   ╚═╝   ╚═════╝ 
+#
+# A customized init.vim for neovim (https://neovim.io/)
+
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
