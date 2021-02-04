@@ -1,10 +1,14 @@
 /**
- * ROFI Color theme
- * NAME: dt-dmenu.rasi
- * DESCRIPTION: This is a horizontal prompt similar to dmenu.
- * AUTHOR: Tomoghno Sen
+ *
+ *████████╗ ██████╗
+ *╚══██╔══╝██╔════╝	Tomoghno Sen (DoodleCraft)
+ *   ██║   ╚█████╗ 	https://www.youtube.com/channel/UCrLuSGTUJRmI8w3aPMN8Stw
+ *   ██║    ╚═══██╗	https://github.com/Tomoghno
+ *   ██║   ██████╔╝
+ *   ╚═╝   ╚═════╝ 
+ *
+ * A customized rofi config.
  */
-
 * {
     background-color:           #1d1d1d;
     border-color:               #1d1d1d;

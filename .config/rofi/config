@@ -1,1 +1,13 @@
+/**
+ *
+ *████████╗ ██████╗
+ *╚══██╔══╝██╔════╝	Tomoghno Sen (DoodleCraft)
+ *   ██║   ╚█████╗ 	https://www.youtube.com/channel/UCrLuSGTUJRmI8w3aPMN8Stw
+ *   ██║    ╚═══██╗	https://github.com/Tomoghno
+ *   ██║   ██████╔╝
+ *   ╚═╝   ╚═════╝ 
+ *
+ * A customized rofi config.
+ */
+
 rofi.theme: ~/.config/rofi/themes/dmenu.rasi
