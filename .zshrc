@@ -3,7 +3,7 @@
 # ╚══██╔══╝██╔════╝	Tomoghno Sen (DoodleCraft)
 #    ██║   ╚█████╗ 	https://www.youtube.com/channel/UCrLuSGTUJRmI8w3aPMN8Stw
 #    ██║    ╚═══██╗	https://github.com/Tomoghno
-#    ██║   ██████╔╝ https://gitlab.com/Tomoghno
+#    ██║   ██████╔╝	https://gitlab.com/Tomoghno
 #    ╚═╝   ╚═════╝ 
 #
 # A customized .zshrc
