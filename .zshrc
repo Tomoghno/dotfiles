@@ -1,10 +1,10 @@
 #
-#████████╗ ██████╗
-#╚══██╔══╝██╔════╝	Tomoghno Sen (DoodleCraft)
-#   ██║   ╚█████╗ 	https://www.youtube.com/channel/UCrLuSGTUJRmI8w3aPMN8Stw
-#   ██║    ╚═══██╗	https://github.com/Tomoghno
-#   ██║   ██████╔╝
-#   ╚═╝   ╚═════╝ 
+# ████████╗ ██████╗
+# ╚══██╔══╝██╔════╝	Tomoghno Sen (DoodleCraft)
+#    ██║   ╚█████╗ 	https://www.youtube.com/channel/UCrLuSGTUJRmI8w3aPMN8Stw
+#    ██║    ╚═══██╗	https://github.com/Tomoghno
+#    ██║   ██████╔╝
+#    ╚═╝   ╚═════╝ 
 #
 # A customized .zshrc
 
@@ -140,6 +140,7 @@ alias pkg='sudo pacman'
 alias pak='flatpak --user'
 alias yay='paru'
 alias vim='nvim'
+alias npp='WINEPREFIX=~/Games/Wine-Bottle wine ~/Documents/Applications/Notepad++/notepad++.exe'
 
 # some more ls aliases
 alias ls='exa --icons --color=always --group-directories-first'

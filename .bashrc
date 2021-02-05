@@ -1,11 +1,11 @@
 #!/bin/sh
 #
-#████████╗ ██████╗
-#╚══██╔══╝██╔════╝	Tomoghno Sen (DoodleCraft)
-#   ██║   ╚█████╗ 	https://www.youtube.com/channel/UCrLuSGTUJRmI8w3aPMN8Stw
-#   ██║    ╚═══██╗	https://github.com/Tomoghno
-#   ██║   ██████╔╝
-#   ╚═╝   ╚═════╝ 
+# ████████╗ ██████╗
+# ╚══██╔══╝██╔════╝	Tomoghno Sen (DoodleCraft)
+#    ██║   ╚█████╗ 	https://www.youtube.com/channel/UCrLuSGTUJRmI8w3aPMN8Stw
+#    ██║    ╚═══██╗	https://github.com/Tomoghno
+#    ██║   ██████╔╝
+#    ╚═╝   ╚═════╝ 
 #
 # A customized .bashrc
 
@@ -397,7 +397,6 @@ PROMPT_COMMAND=bash_prompt_command
 ##	which gets updated by $PROMT_COMMAND on behalf of the terminal
 bash_prompt
 unset bash_prompt
-
 ### ARCHIVE EXTRACTION
 # usage: ex <file>
 ex ()
