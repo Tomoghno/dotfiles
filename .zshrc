@@ -145,7 +145,6 @@ alias pkg='sudo pacman'
 alias pak='flatpak --user'
 alias yay='paru'
 alias vim='nvim'
-alias npp='WINEPREFIX=~/Games/Wine-Bottle wine ~/Documents/Applications/Notepad++/notepad++.exe'
 
 # Changing "ls" to "exa"
 alias ls='exa --icons --color=always --group-directories-first'
