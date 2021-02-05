@@ -8,9 +8,14 @@
 #
 # A customized .zshrc
 
-
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
+
+### EXPORT
+export TERM="xterm-256color"              # getting proper colors
+export HISTORY_IGNORE="(ls|cd|pwd|exit|sudo reboot|history|cd -|cd ..)"
+
+### OH MY ZSH ###
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/tomoghno/.config/oh-my-zsh"
@@ -142,7 +147,7 @@ alias yay='paru'
 alias vim='nvim'
 alias npp='WINEPREFIX=~/Games/Wine-Bottle wine ~/Documents/Applications/Notepad++/notepad++.exe'
 
-# some more ls aliases
+# Changing "ls" to "exa"
 alias ls='exa --icons --color=always --group-directories-first'
 alias ll='exa -alF --icons --color=always --group-directories-first'
 alias la='exa -a --icons --color=always --group-directories-first'
