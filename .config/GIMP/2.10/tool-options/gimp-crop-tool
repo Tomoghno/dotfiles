@@ -1,0 +1,9 @@
+# GIMP gimp-crop-tool options
+
+(aspect-denominator 1600)
+(aspect-numerator 1600)
+(fixed-rule-active yes)
+(overridden-fixed-aspect yes)
+(highlight-opacity 0.52000000000000002)
+
+# end of gimp-crop-tool options

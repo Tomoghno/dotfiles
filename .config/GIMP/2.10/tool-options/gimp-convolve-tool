@@ -1,0 +1,9 @@
+# GIMP gimp-convolve-tool options
+
+(brush "2. Hardness 100")
+(dynamics "Dynamics Off")
+(palette "Nord")
+(brush-size 167)
+(rate 50.899999999999999)
+
+# end of gimp-convolve-tool options

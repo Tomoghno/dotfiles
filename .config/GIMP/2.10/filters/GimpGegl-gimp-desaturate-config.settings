@@ -1,0 +1,16 @@
+# settings
+
+(GimpGegl-gimp-desaturate-config "2020-12-24 11:16:56"
+    (time 1608788816)
+    (mode average))
+(GimpGegl-gimp-desaturate-config "2020-12-11 12:15:08"
+    (time 1607669108)
+    (mode value))
+(GimpGegl-gimp-desaturate-config "2020-12-10 13:15:19"
+    (time 1607586319)
+    (mode luminance))
+(GimpGegl-gimp-desaturate-config "2020-12-07 17:15:55"
+    (time 1607341555)
+    (mode luma))
+
+# end of settings

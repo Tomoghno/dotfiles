@@ -1,0 +1,17 @@
+# settings
+
+(GimpGegl-gimp-colorize-config "2020-12-13 19:13:52"
+    (time 1607867032)
+    (hue 1)
+    (saturation 0.5)
+    (lightness 0)
+    (color (color-rgb 0.75 0.25 0.25)))
+(GimpGegl-gimp-colorize-config "2020-12-09 16:56:04"
+    (time 1607513164)
+    (gimp-opacity 0.878)
+    (hue 0.54710000000000003)
+    (saturation 0.60289999999999999)
+    (lightness -0.13500000000000001)
+    (color (color-rgb 0.17174575000000003 0.54587594789999971 0.69325424999999996)))
+
+# end of settings

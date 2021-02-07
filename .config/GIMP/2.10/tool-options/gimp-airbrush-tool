@@ -1,0 +1,10 @@
+# GIMP gimp-airbrush-tool options
+
+(brush "2. Hardness 100")
+(dynamics "Dynamics Off")
+(gradient "FG to BG (RGB)")
+(palette "Nord")
+(brush-size 167)
+(gradient-reverse yes)
+
+# end of gimp-airbrush-tool options

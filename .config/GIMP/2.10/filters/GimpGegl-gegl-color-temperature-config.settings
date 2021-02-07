@@ -1,0 +1,9 @@
+# settings
+
+(GimpGegl-gegl-color-temperature-config "2020-11-03 18:36:33"
+    (time 1604408793)
+    (gimp-opacity 0.85400000000000009)
+    (original-temperature 7477)
+    (intended-temperature 12000))
+
+# end of settings

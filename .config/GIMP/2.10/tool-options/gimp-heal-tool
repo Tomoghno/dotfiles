@@ -1,0 +1,8 @@
+# GIMP gimp-heal-tool options
+
+(brush "2. Hardness 100")
+(dynamics "Dynamics Off")
+(palette "Nord")
+(brush-size 167)
+
+# end of gimp-heal-tool options

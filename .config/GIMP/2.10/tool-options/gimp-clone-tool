@@ -1,0 +1,9 @@
+# GIMP gimp-clone-tool options
+
+(brush "2. Hardness 100")
+(dynamics "Dynamics Off")
+(pattern "paper-texture.jpg")
+(palette "Nord")
+(brush-size 167)
+
+# end of gimp-clone-tool options
