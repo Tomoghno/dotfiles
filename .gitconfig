@@ -1,0 +1,36 @@
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[user]
+	name = Tomoghno
+	email = sentomoghno503@gmail.com
+	username = Tomoghno
+[github]
+	user = Tomoghno
+	token = 1c843e871d95d87f06086042d9d062e01ec799fe
+[hub]
+	protocol = https
+[color]
+	ui = true
+[color "diff-highlight"]
+	oldHighlight = red bold 52
+	newNormal = green bold
+	newHighlight = green bold 22
+	oldNormal = red bold
+[color "diff"]
+	meta = 11 bold
+	frag = magenta bold
+	commit = yellow bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
+[diff-so-fancy]
+	changeHunkIndicators = false
+	stripLeadingSymbols = false
+	markEmptyLines = false
+	rulerWidth =
+  useUnicodeRuler = false
+[credential]
+	helper = store
