@@ -12,7 +12,6 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 ### EXPORT
-export TERM="xterm-256color"              # getting proper colors
 export HISTORY_IGNORE="(ls|cd|pwd|exit|sudo reboot|history|cd -|cd ..)"
 
 ### OH MY ZSH ###
@@ -84,7 +83,7 @@ DISABLE_UPDATE_PROMPT="true"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=( git; bgnotify; zsh-syntax-highlighting; zsh-autosuggestions; sudo)
+plugins=( git; zsh-syntax-highlighting; zsh-autosuggestions; sudo)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -97,9 +96,9 @@ source $ZSH/oh-my-zsh.sh
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
+#   export EDITOR='nvim'
 # else
-#   export EDITOR='mvim'
+#   export EDITOR='nano'
 # fi
 
 # Compilation flags
@@ -140,11 +139,13 @@ ex ()
 # Aliases
 alias refresh="paru -Syu && flatpak update -y"
 alias lock='xdg-screensaver lock'
-alias zconf='gedit /home/tomoghno/.zshrc'
+alias zconf='nvim /home/tomoghno/.config/zsh/.zshrc'
 alias pkg='sudo pacman'
 alias pak='flatpak --user'
 alias yay='paru'
+alias edit='nvim'
 alias vim='nvim'
+alias nvim-help="cat '/home/tomoghno/.config/nvim/help.vim'"
 
 # Changing "ls" to "exa"
 alias ls='exa --icons --color=always --group-directories-first'

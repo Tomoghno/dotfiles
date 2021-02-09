@@ -4,7 +4,7 @@
 # ╚══██╔══╝██╔════╝	Tomoghno Sen (DoodleCraft)
 #    ██║   ╚█████╗ 	https://www.youtube.com/channel/UCrLuSGTUJRmI8w3aPMN8Stw
 #    ██║    ╚═══██╗	https://github.com/Tomoghno
-#    ██║   ██████╔╝	https://gitlab.com/Tomoghno
+#    ██║   ██████╔╝
 #    ╚═╝   ╚═════╝ 
 #
 # A customized .bashrc
@@ -397,6 +397,7 @@ PROMPT_COMMAND=bash_prompt_command
 ##	which gets updated by $PROMT_COMMAND on behalf of the terminal
 bash_prompt
 unset bash_prompt
+
 ### ARCHIVE EXTRACTION
 # usage: ex <file>
 ex ()
@@ -429,8 +430,10 @@ alias refresh="paru -Syu && flatpak update -y"
 alias lock='xdg-screensaver lock'
 alias bconf='gedit /home/tomoghno/.bashrc'
 alias pkg='sudo pacman'
+alias pak='flatpak --user'
 alias yay='paru'
 alias vim='nvim'
+alias nvim-help="cat '/home/tomoghno/.config/nvim/help.vim'"
 
 # some more ls aliases
 alias ls='exa --icons --color=always --group-directories-first'
