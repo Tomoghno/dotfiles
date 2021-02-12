@@ -1,0 +1,17 @@
+/**
+ *
+ *████████╗ ██████╗
+ *╚══██╔══╝██╔════╝	Tomoghno Sen (DoodleCraft)
+ *   ██║   ╚█████╗ 	https://www.youtube.com/channel/UCrLuSGTUJRmI8w3aPMN8Stw
+ *   ██║    ╚═══██╗	https://github.com/Tomoghno
+ *   ██║   ██████╔╝
+ *   ╚═╝   ╚═════╝ 
+ *
+ * A customized rofi config.
+ */
+
+configuration {
+	theme: "~/.config/rofi/themes/dmenu.rasi";
+	icon-theme: "Tela";
+	show-icons: false;
+}
