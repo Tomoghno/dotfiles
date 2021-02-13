@@ -10,14 +10,14 @@
  * A customized rofi config.
  */
 * {
-    background-color:           #1d1d1d;
-    border-color:               #1d1d1d;
+    background-color:           #1F1F1F;
+    border-color:               #1F1F1F;
     text-color:                 #E5E9F0;
     height:                     26px;
     font:                       "Sans-Serif 11";
     prompt-font:                "Sans-Serif Bold 11";
-    prompt-background:          #A3BE8C;
-    prompt-foreground:          #3B4252;
+    prompt-background:          #8AB4F8;
+    prompt-foreground:          #181818;
     prompt-padding:             2px;
     selected-normal-background: #BF616A;
     selected-normal-foreground: #E5E9F0;
