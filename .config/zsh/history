@@ -5235,3 +5235,319 @@ https://github.com/icy/pacapt/raw/ng/pacapt
 : 1613223785:0;pak update
 : 1613224920:0;curl -fsSL https://starship.rs/install.sh | bash
 : 1613224995:0;bash
+: 1613226312:0;git commit
+: 1613226346:0;git add .config/zsh/ && rm .zshrc
+: 1613226368:0;git rm .zshrc
+: 1613226371:0;git commit
+: 1613226400:0;git push
+: 1613226422:0;git add .config/zsh/ && git rm .zshrc
+: 1613226425:0;git commit
+: 1613226444:0;git push
+: 1613234156:0;xrandr -q
+: 1613234170:0;xrandr -q | grep ' connected' | head -n 1 | cut -d ' ' -f1\
+LVDS-1
+: 1613234186:0;xrandr --output LVDS-1 --brightness 0.7
+: 1613234236:0;xrandr --listactivemonitors
+: 1613234358:0;xrandr --output HDMI-A-0 --brightness 0.7
+: 1613234361:0;xrandr --output HDMI-A-0 --brightness 0.5
+: 1613234364:0;xrandr --output HDMI-A-0 --brightness 0.1
+: 1613234369:0;xrandr --output HDMI-A-0 --brightness 1.0
+: 1613234373:0;xrandr --output HDMI-A-0 --brightness 1.5
+: 1613234376:0;xrandr --output HDMI-A-0 --brightness 1.0
+: 1613234489:0;yay -S brightness-controller
+: 1613234663:0;gdbus call --session --dest org.gnome.SettingsDaemon.Power --object-path /org/gnome/SettingsDaemon/Power --method org.gnome.SettingsDaemon.Power.Screen.StepUp
+: 1613234726:0;yay -S gnome-power-manager
+: 1613234771:0;gdbus call --session --dest org.gnome.SettingsDaemon.Power --object-path /org/gnome/SettingsDaemon/Power --method org.gnome.SettingsDaemon.Power.Screen.StepUp
+: 1613234792:0;ls /sys/class/backlight
+: 1613234798:0;ls -lrt /sys/class/backlight
+: 1613234810:0;ls -lr /sys/class/backlight
+: 1613234817:0;ls -lr /sys/class/
+: 1613234850:0;grubby --update-kernel=ALL --args="acpi_backlight=native"
+: 1613234864:0;yay -S grubby
+: 1613234963:0;sudoedit /etc/default/grub
+: 1613235035:0;sudo update-grub
+: 1613235073:0;gdbus call --session --dest org.gnome.SettingsDaemon.Power --object-path /org/gnome/SettingsDaemon/Power --method org.gnome.SettingsDaemon.Power.Screen.StepUp
+: 1613235078:0;sudoedit /etc/default/grub
+: 1613235101:0;sudo update-grub
+: 1613235431:0;bash
+: 1613287249:0;yay -Syu
+: 1613287282:0;flatpak update
+: 1613288424:0;xrandr --output HDMI-A-0 --brightness 1.5
+: 1613288435:0;xrandr --output HDMI-A-0 --brightness 1.0
+: 1613288441:0;xrandr --output HDMI-A-0 --brightness 0.5
+: 1613288452:0;xrandr --output HDMI-A-0 --brightness 0.7
+: 1613288468:0;xrandr --output HDMI-A-0 --brightness 1.0
+: 1613304429:0;yay -Syu
+: 1613307787:0;uname -r
+: 1613314748:0;yay -Syu
+: 1613314771:0;yay -Syyu
+: 1613316263:0;./install.sh -i white
+: 1613316295:0;cd /usr/share/grub/themes/
+: 1613316319:0;yay -S grub-customizer
+: 1613316464:0;./install.sh -h
+: 1613316474:0;sudo ./install.sh -r
+: 1613365197:0;winecfg
+: 1613365231:0;neofetch
+: 1613365304:0;yay -Rns grub-customizer
+: 1613365315:0;yay -Sc
+: 1613390117:0;yay -S iriunwebcam-bin
+: 1613390229:0;yay -Rns
+: 1613390235:0;yay -Sc
+: 1613390279:0;yay -Rns dkms v4l2loopback-dkms
+: 1613390298:0;yay -Rns v4l2loopback-dkms
+: 1613390307:0;yay -Rns dkms
+: 1613390315:0;yay -R dkms v4l2loopback-dkms
+: 1613392170:0;yay -S iriunwebcam-bin
+: 1613392221:0;yay -Rns dkms
+: 1613392225:0;yay -Rns dkms v4l2loopback-dkms
+: 1613392242:0;yay -Sc
+: 1613399135:0;yay -S mailspring
+: 1613399243:0;yay -Sc
+: 1613399265:0;yay -S thunderbird
+: 1613399324:0;yay -Qt
+: 1613399342:0;yay -Qtt
+: 1613399394:0;pacman -Qtdq
+: 1613399411:0;sudo pacman -Rns $(pacman -Qtdq)
+: 1613399589:0;yay -Rns thunderbird
+: 1613399599:0;yay -Sc
+: 1613399804:0;git clone https://gitlab.gnome.org/World/Shortwave
+: 1613401085:0;clear
+: 1613401136:0;clear
+: 1613401191:0;clear
+: 1613401202:0;git clone https://gitlab.gnome.org/World/Shortwave
+: 1613401292:0;clear
+: 1613401338:0;clear
+: 1613402039:0;bash
+: 1613406576:0;yay -S vlc
+: 1613407158:0;yay -Rns vlc
+: 1613407171:0;yay -Sc
+: 1613407972:0;pkg -Syu
+: 1613408032:0;yay -Sua
+: 1613408044:0;flatpak update
+: 1613408280:0;man paru
+: 1613410036:0;sudoedit
+: 1613410040:0;sudoedit /etc/locale.gen
+: 1613410116:0;sudo locale-gen
+: 1613410374:0;sudoedit /etc/locale.gen
+: 1613410417:0;sudo locale-gen
+: 1613410715:0;neofetch
+: 1613410737:0;clear
+: 1613441249:0;yay -Syu
+: 1613441290:0;flatpak update
+: 1613441342:0;yay -S spot
+: 1613441393:0;yay -Sx
+: 1613441395:0;yay -Sc
+: 1613441465:0;yay -S rust
+: 1613441605:0;cargo
+: 1613441609:0;git clone https://github.com/xou816/spot
+: 1613441685:0;meson target -Dbuildtype=debug -Doffline=false --prefix="$HOME/.local"
+: 1613441699:0;ninja -C target
+: 1613442361:0;cargo --version
+: 1613442390:0;cargo --color=always
+: 1613442471:0;ninja install
+: 1613442496:0;spot
+: 1613442516:0;ninja uninstall
+: 1613442537:0;sudo ninja uninstall
+: 1613442583:0;sudo rm -r /home/tomoghno/.local/share/glib-2.0
+: 1613442588:0;ninja uninstall
+: 1613442691:0;touch hello.rs
+: 1613442729:0;rustc hello.rs
+: 1613442740:0;./hello
+: 1613442812:0;rustc hello.rs
+: 1613442814:0;./hello
+: 1613442888:0;yay -S shc
+: 1613442926:0;yay -Rns rust
+: 1613442937:0;yay -Sc
+: 1613442947:0;yay -S shc
+: 1613443066:0;yay -S base-devel
+: 1613443226:0;sudo rm -r shc
+: 1613443313:0;shc -T -f minecraft
+: 1613443327:0;shc -T -f minecraft.sh
+: 1613443355:0;shc -f minecraft.sh
+: 1613443377:0;shc minecraft.sh
+: 1613443429:0;shc -f minecraft.sh
+: 1613443594:0;yay -Syu
+: 1613445021:0;sh
+: 1613445055:0;shc -f minecraft.sh
+: 1613445090:0;minecraft
+: 1613445252:0;shc -f minecraft.sh
+: 1613448107:0;uuidgen
+: 1613449619:0;touch hello.py
+: 1613449872:0;python hello.py
+: 1613449973:0;yay -S pyinstaller
+: 1613450601:0;./spam.py
+: 1613455570:0;neofetch
+: 1613462080:0;yay -Syu
+: 1613484882:0;flatpak update
+: 1613487468:0;yay -Syu
+: 1613487495:0;flatpak update
+: 1613538155:0;yay -Syu
+: 1613538456:0;git clone git clone https://github.com/bugswriter/tuxi.git
+: 1613538463:0;git clone https://github.com/bugswriter/tuxi.git
+: 1613538522:0;shc -f tuxi
+: 1613538583:0;tuxi "Who is the owner of Tesla"
+: 1613538632:0;tuxi Who is the owner of Tesla
+: 1613539078:0;flatpak update
+: 1613539792:0;yay -S cmus
+: 1613539812:0;cmus
+: 1613540122:0;yay -Sua
+: 1613540208:0;cmus
+: 1613540331:0;yay -Rns cmus
+: 1613540443:0;yay -Sc
+: 1613540466:0;sudo rm -r /var/cache/pacman/pkg/gawk-5.1.0-1-x86_64.pkg.tar.zst.part
+: 1613540469:0;yay -Sc
+: 1613540563:0;flatpak list
+: 1613540608:0;yay -S simplenote-electron-bin
+: 1613540622:0;flatpak remove com.simplenote.Simplenote
+: 1613540634:0;flatpak list
+: 1613547434:0;pkg -Syu
+: 1613547497:0;yay -Sua
+: 1613551445:0;neofe
+: 1613551450:0;neofetch
+: 1613551972:0;youtube-dl 'https://www.youtube.com/watch\?v\=zABLecsR5UE'
+: 1613551994:0;yay -Rns youtube-dl
+: 1613552004:0;yay -Sc
+: 1613552316:0;sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl
+: 1613552327:0;curl -L https://yt-dl.org/downloads/latest/youtube-dl
+: 1613552364:0;wget https://yt-dl.org/downloads/latest/youtube-dl
+: 1613552444:0;youtube-dl 'https://www.youtube.com/watch\?v\=zABLecsR5UE'
+: 1613552463:0;youtube-dl -U
+: 1613552487:0;youtube-dl https://www.youtube.com/watch\?v\=zABLecsR5UE
+: 1613552637:0;yay -S youtube-dl
+: 1613572680:0;yay -Syu
+: 1613572716:0;flatpak update
+: 1613572871:0;neofetch
+: 1613574349:0;yay -S ksysguard
+: 1613574421:0;yay -Rns ksysguard
+: 1613574427:0;yay -Sc
+: 1613574612:0;sudoedit /etc/environment
+: 1613580521:0;twm
+: 1613580528:0;twm --replace
+: 1613580538:0;twm -h
+: 1613580561:0;pkg -S openbox
+: 1613580582:0;openbox --replace
+: 1613580615:0;openbox
+: 1613580704:0;pkg -Rns openbox
+: 1613627757:0;yay -Syu
+: 1613627787:0;flatpak update
+: 1613628272:0;neofetch
+: 1613630176:0;yay -Syu
+: 1613630287:0;shredder
+: 1613630463:0;yay -S kodi
+: 1613630489:0;yay -S kodi-wayland
+: 1613630507:0;yay -S kodi-gbm
+: 1613630515:0;yay -S kodi-x11
+: 1613631901:0;yay -Rns kodi-x11
+: 1613633232:0;./mpg.rs
+: 1613633356:0;yay -S spotify-tui
+: 1613633434:0;spt
+: 1613633587:0;yay -Rns spotify-tui-bin
+: 1613633597:0;yay -Sc
+: 1613633976:0;gcc main.c -o p1\
+   `pkg-config --cflags --libs gtk+-2.0`
+: 1613634014:0;gcc main.c -o p1
+: 1613634055:0;gcc main.c -o p1 `pkg-config --cflags --libs gtk+-2.0`
+: 1613634064:0;./p1
+: 1613634157:0;gcc main.c -o p1 `pkg-config --cflags --libs gtk+-2.0`
+: 1613634160:0;./p1
+: 1613634199:0;./slapp
+: 1613634249:0;gcc main.c -o p1 `pkg-config --cflags --libs gtk+-2.0`
+: 1613634645:0;javac -d import.java
+: 1613634658:0;javac -d ./build import.java
+: 1613634696:0;jar cvf YourJar.jar
+: 1613634711:0;jar cvf gui.jar
+: 1613634789:0;javac import.java
+: 1613634814:0;jar cf JarExample.jar
+: 1613634827:0;jar cf gui.class
+: 1613634981:0;javac import.java
+: 1613635023:0;./gui.class
+: 1613635118:0;javac import.java
+: 1613635133:0;./gui.class
+: 1613636325:0;yay -Syu
+: 1613665028:0;legendary list-games
+: 1613665133:0;legendary install 19927295d6e3467887d4e830d8c85963
+: 1613665894:0;legendary launch 19927295d6e3467887d4e830d8c85963
+: 1613667778:0;ping www.google.co.in
+: 1613670541:0;yay -Syu
+: 1613670594:0;flatpak update
+: 1613671027:0;cat /etc/pacman.d/mirrorlist
+: 1613672090:0;sudo visudo
+: 1613673185:0;sudoedit visudo
+: 1613673210:0;apropos
+: 1613713837:0;yay -Syu
+: 1613713862:0;pak update
+: 1613714530:0;yay -S shortwave
+: 1613714729:0;ninja
+: 1613714733:0;meson
+: 1613714757:0;meson --prefix="$HOME/.local"
+: 1613714789:0;ninja
+: 1613714863:0;meson --prefix=/usr build
+: 1613714876:0;ninja -C build
+: 1613714896:0;sudo ninja -C build install
+: 1613714967:0;yay -Sc
+: 1613715163:0;yay -Rns shortwave
+: 1613715324:0;legendary list-games
+: 1613715541:0;youtube-dl www.youtube.com/watch?v=jyqeg1IFX8U
+: 1613715551:0;youtube-dl "www.youtube.com/watch?v=jyqeg1IFX8U"
+: 1613715788:0;yay -S mat-gui
+: 1613715817:0;yay -S mat
+: 1613715992:0;git clone https://gitlab.com/rmnvgr/metadata-cleaner.git
+: 1613716018:0;meson build
+: 1613716037:0;yay -S libmat2
+: 1613716057:0;yay libmat2
+: 1613716108:0;yay -S mat2
+: 1613716124:0;meson build
+: 1613716150:0;meson install -C build
+: 1613716319:0;meson uninstall -C build
+: 1613716346:0;sudo ninja uninstall
+: 1613716398:0;cd /usr/local/share/icons
+: 1613716407:0;cd hicolor
+: 1613716420:0;sudo rm icon-theme.cache
+: 1613716438:0;cd /usr/local/share/applications
+: 1613716447:0;sudo rm mimeinfo.cache
+: 1613716471:0;cd /usr/local/share/glib-2.0/schemas
+: 1613716483:0;sudo rm gschemas.compiled
+: 1613716537:0;flatpak-builder --force-clean --user --install builddir data/fr.romainvigier.MetadataCleaner.yaml
+: 1613716643:0;yay -Sc
+: 1613716761:0;yay -Rns bashtop
+: 1613716768:0;yay -Sc
+: 1613716852:0;yay -S bpytop
+: 1613716867:0;bpytop
+: 1613717087:0;neofetch
+: 1613717519:0;bpytop
+: 1613717781:0;pak install org.xonotic.Xonotic
+: 1613720131:0;pak list
+: 1613720962:0;gamemoderun org.xonotic.Xonotic
+: 1613721136:0;mangohud gamemoderun org.xonotic.Xonotic
+: 1613721191:0;mangohud org.xonotic.Xonotic
+: 1613721228:0;gamemoderun org.xonotic.Xonotic
+: 1613731378:0;gnome-session
+: 1613731816:0;./sketchers
+: 1613731952:0;shc -f sketchers
+: 1613731987:0;./sketchers.c
+: 1613732023:0;gcc -v sketchers.c
+: 1613732103:0;gcc sketchers.c
+: 1613732122:0;./a.out
+: 1613733585:0;yay -Syu
+: 1613733995:0;gtk-update-icon-cache
+: 1613735582:0;yay -Syu
+: 1613742153:0;flatpak update
+: 1613742543:0;gcc main.c -o click `pkg-config --cflags --libs gtk+-2.0`
+: 1613742562:0;gcc click.c -o click `pkg-config --cflags --libs gtk+-2.0`
+: 1613742569:0;./click
+: 1613742587:0;gcc click.c -o click `pkg-config --cflags --libs gtk+-3.0`
+: 1613742627:0;gcc click.c -o click `pkg-config --cflags --libs gtk+-1.0`
+: 1613742696:0;gcc click.c -o click `pkg-config --cflags --libs gtk+-2.0`
+: 1613742720:0;./click
+: 1613742757:0;./veloren
+: 1613746083:0;yay -S  	blanket-bin
+: 1613794019:0;yay -Rns blanket-bin
+: 1613794028:0;yay -Sc
+: 1613795066:0;yay -Syu
+: 1613795118:0;flatpak update
+: 1613795689:0;yay -S notejot
+: 1613795773:0;yay -Rns notejot
+: 1613795774:0;y
+: 1613795786:0;yay -Sc
+: 1613795831:0;git clone
+: 1613795835:0;git clone https://github.com/lainsce/notejot.git
