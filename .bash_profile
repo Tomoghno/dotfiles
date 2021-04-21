@@ -1,4 +1,4 @@
-#!/bin/sh
+#! /bin/bash
 #
 #████████╗ ██████╗
 #╚══██╔══╝██╔════╝	Tomoghno Sen (DoodleCraft)
@@ -7,7 +7,7 @@
 #   ██║   ██████╔╝
 #   ╚═╝   ╚═════╝ 
 #
-# A customized .zprofile File
+# A customized .bash_profile
 
 # if running bash
 if [ -n "$BASH_VERSION" ]; then

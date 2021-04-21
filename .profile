@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/sh
 #
 #████████╗ ██████╗
 #╚══██╔══╝██╔════╝	Tomoghno Sen (DoodleCraft)
@@ -37,6 +37,11 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 PATH="/usr/games:$PATH"
+
+# Environment Variables
+QT_AUTO_SCREEN_SCALE_FACTOR=1
+QT_QPA_PLATFORMTHEME="gnome"
+QT_STYLE_OVERRIDE="kvantum-dark"
 
 # ~/ Clean-up:
 export ZDOTDIR="${XDG_CONFIG_HOME:-$HOME/.config}/zsh"
