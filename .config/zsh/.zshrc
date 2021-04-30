@@ -1,4 +1,4 @@
-#! /bin/zsh
+#!/bin/sh
 #
 # ████████╗ ██████╗
 # ╚══██╔══╝██╔════╝	Tomoghno Sen (DoodleCraft)
@@ -139,6 +139,7 @@ ex ()
 
 # Aliases
 alias refresh="paru -Syu && flatpak update -y"
+alias lck="sudo rm -f /var/lib/pacman/db.lck"
 alias lock='xdg-screensaver lock'
 alias zconf='nvim /home/tomoghno/.config/zsh/.zshrc'
 alias pkg='sudo pacman'
@@ -146,7 +147,18 @@ alias pak='flatpak --user'
 alias yay='paru'
 alias edit='nvim'
 alias vim='nvim'
-alias nvim-help="cat '/home/tomoghno/.config/nvim/help.vim'"
+
+# youtube-dl alias
+alias yt='youtube-dl'
+alias yta-aac='youtube-dl --extract-audio --audio-format aac '
+alias yta-best='youtube-dl --extract-audio --audio-format best '
+alias yta-flac='youtube-dl --extract-audio --audio-format flac '
+alias yta-m4a='youtube-dl --extract-audio --audio-format m4a '
+alias yta-mp3='youtube-dl --extract-audio --audio-format mp3 '
+alias yta-opus='youtube-dl --extract-audio --audio-format opus '
+alias yta-vorbis='youtube-dl --extract-audio --audio-format vorbis '
+alias yta-wav='youtube-dl --extract-audio --audio-format wav '
+alias ytv-best='youtube-dl -f bestvideo+bestaudio '
 
 # Changing "ls" to "exa"
 alias ls='exa --icons --color=always --group-directories-first'
