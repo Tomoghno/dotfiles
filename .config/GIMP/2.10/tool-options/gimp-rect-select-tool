@@ -1,4 +1,6 @@
 # GIMP gimp-rect-select-tool options
 
+(fixed-center yes)
+(fixed-rule-active yes)
 
 # end of gimp-rect-select-tool options

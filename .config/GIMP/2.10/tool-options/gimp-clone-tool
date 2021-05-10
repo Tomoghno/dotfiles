@@ -1,9 +1,10 @@
 # GIMP gimp-clone-tool options
 
+(foreground (color-rgb 0.21176470588235294 0.21176470588235294 0.21176470588235294))
 (brush "2. Hardness 100")
 (dynamics "Dynamics Off")
 (pattern "paper-texture.jpg")
-(palette "Nord")
-(brush-size 167)
+(palette "Brand Colors")
+(brush-size 4)
 
 # end of gimp-clone-tool options

@@ -1,9 +1,10 @@
 # GIMP gimp-convolve-tool options
 
+(foreground (color-rgb 0.21176470588235294 0.21176470588235294 0.21176470588235294))
 (brush "2. Hardness 100")
 (dynamics "Dynamics Off")
-(palette "Nord")
-(brush-size 167)
+(palette "Brand Colors")
+(brush-size 4)
 (rate 50.899999999999999)
 
 # end of gimp-convolve-tool options

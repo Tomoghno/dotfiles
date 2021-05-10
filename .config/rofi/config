@@ -9,9 +9,8 @@
  *
  * A customized rofi config.
  */
+rofi.theme: ~/.config/rofi/themes/maia.rasi
 
-configuration {
-	theme: "~/.config/rofi/themes/dmenu.rasi";
-	icon-theme: "Tela";
-	show-icons: false;
-}
+/**
+ * rofi.theme: ~/.config/rofi/themes/adwaita.rasi
+ */

@@ -1,7 +1,10 @@
 # GIMP gimp-text-tool options
 
-(palette "Nord")
-(font "Standard")
-(font-size 64)
+(foreground (color-rgb 0.21176470588235294 0.21176470588235294 0.21176470588235294))
+(palette "Brand Colors")
+(font "Liberation Serif Bold")
+(font-size 20)
+(justify center)
+(box-mode fixed)
 
 # end of gimp-text-tool options

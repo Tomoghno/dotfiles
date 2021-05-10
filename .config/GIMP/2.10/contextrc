@@ -1,14 +1,15 @@
 # GIMP user context
 
-(tool "gimp-move-tool")
+(tool "gimp-text-tool")
 (paint-info "gimp-paintbrush")
+(foreground (color-rgb 0.21176470588235294 0.21176470588235294 0.21176470588235294))
 (brush "2. Hardness 100")
 (dynamics "Dynamics Off")
 (mybrush "Standard")
 (pattern "paper-texture.jpg")
-(gradient "FG to BG (RGB)")
-(palette "Nord")
-(font "Standard")
+(gradient "Custom")
+(palette "Brand Colors")
+(font "Liberation Serif Bold")
 (tool-preset "Core Pointer")
 
 # end of user context

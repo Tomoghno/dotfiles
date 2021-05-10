@@ -1,9 +1,10 @@
 # GIMP gimp-vector-tool options
 
+(foreground (color-rgb 0.21176470588235294 0.21176470588235294 0.21176470588235294))
 (brush "2. Hardness 100")
 (dynamics "Dynamics Off")
 (pattern "paper-texture.jpg")
-(gradient "FG to BG (RGB)")
-(palette "Nord")
+(gradient "Custom")
+(palette "Brand Colors")
 
 # end of gimp-vector-tool options

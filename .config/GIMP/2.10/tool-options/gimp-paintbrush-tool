@@ -1,13 +1,13 @@
 # GIMP gimp-paintbrush-tool options
 
+(foreground (color-rgb 0.21176470588235294 0.21176470588235294 0.21176470588235294))
 (brush "2. Hardness 100")
 (dynamics "Dynamics Off")
-(gradient "FG to BG (RGB)")
-(palette "Nord")
-(brush-size 167)
+(gradient "Custom")
+(palette "Brand Colors")
+(brush-size 4)
 (gradient-reverse yes)
-(use-smoothing yes)
-(smoothing-quality 45)
-(smoothing-factor 1000)
+(smoothing-quality 30)
+(smoothing-factor 533.29999999999995)
 
 # end of gimp-paintbrush-tool options

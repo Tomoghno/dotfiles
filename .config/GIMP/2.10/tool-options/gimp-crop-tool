@@ -1,9 +1,10 @@
 # GIMP gimp-crop-tool options
 
-(aspect-denominator 1600)
-(aspect-numerator 1600)
-(fixed-rule-active yes)
-(overridden-fixed-aspect yes)
+(aspect-denominator 322)
+(aspect-numerator 320)
+(guide thirds)
+(foreground (color-rgb 0.21176470588235294 0.21176470588235294 0.21176470588235294))
+(pattern "paper-texture.jpg")
 (highlight-opacity 0.52000000000000002)
 
 # end of gimp-crop-tool options

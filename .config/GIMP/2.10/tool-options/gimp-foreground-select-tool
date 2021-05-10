@@ -1,5 +1,6 @@
 # GIMP gimp-foreground-select-tool options
 
-(stroke-width 75)
+(foreground (color-rgb 0.21176470588235294 0.21176470588235294 0.21176470588235294))
+(stroke-width 60)
 
 # end of gimp-foreground-select-tool options

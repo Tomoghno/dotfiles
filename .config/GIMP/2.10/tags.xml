@@ -50,12 +50,12 @@
   </resource>
 
   <resource identifier="${gimp_data_dir}/brushes/Basic/Hardness-075.vbr" checksum="c196ef1b139d8f2744e6519c7a220cf1">
-    <tag>Fun</tag>
-    <tag>Legacy</tag>
-    <tag>Media</tag>
-    <tag>Sketch</tag>
-    <tag>Splatters</tag>
     <tag>Texture</tag>
+    <tag>Splatters</tag>
+    <tag>Sketch</tag>
+    <tag>Media</tag>
+    <tag>Legacy</tag>
+    <tag>Fun</tag>
   </resource>
 
   <resource identifier="${gimp_data_dir}/brushes/Basic/Hardness-100.vbr" checksum="22b8f688f7cd7d6139c56dfc33b14bfd">
@@ -308,12 +308,12 @@
   </resource>
 
   <resource identifier="${gimp_data_dir}/brushes/Texture/Vegetation-02.gih" checksum="6ce358a6a63479e729469f64bc77e361">
-    <tag>Media</tag>
-    <tag>Legacy</tag>
-    <tag>Fun</tag>
-    <tag>Basic</tag>
-    <tag>Sketch</tag>
     <tag>Splatters</tag>
+    <tag>Sketch</tag>
+    <tag>Basic</tag>
+    <tag>Fun</tag>
+    <tag>Legacy</tag>
+    <tag>Media</tag>
   </resource>
 
   <resource identifier="${gimp_data_dir}/brushes/Legacy/vine.gih" checksum="3963e1de9cf5ead1f8cb6332b9351c6f">
@@ -1501,7 +1501,7 @@
   <resource identifier="${gimp_data_dir}/patterns/Legacy/recessed.pat" checksum="2743a836d39c547e0d83de27bffb45c1">
   </resource>
 
-  <resource identifier="gimp-gradient-custom" checksum="d7840c1e553fb7d75c67b1481541f918">
+  <resource identifier="gimp-gradient-custom" checksum="4a878c6cfae0b0e03c0834723daadf92">
   </resource>
 
   <resource identifier="gimp-gradient-fg-bg-hsv-cw" checksum="86589f70c8a7777c6e2d1d14b99e3759">
@@ -1729,7 +1729,10 @@
   <resource identifier="${gimp_data_dir}/gradients/Yellow_Orange.ggr" checksum="428584726006e23e260baa2a7d79f295">
   </resource>
 
-  <resource identifier="gimp-palette-color-history" checksum="6e4f4aeeffe8c33115a9c69790999fd7">
+  <resource identifier="gimp-palette-color-history" checksum="bd2e9a722481e721f887b87a0f053146">
+  </resource>
+
+  <resource identifier="${gimp_dir}/palettes/Brand-Colors.gpl" checksum="a1d13c87dda6fce0d8eb5ed4dae651ba">
   </resource>
 
   <resource identifier="${gimp_dir}/palettes/nord.gpl" checksum="f5e0521994238cf6ee17fbe7d7a2ff29">
@@ -1993,6 +1996,18 @@
   <resource identifier="DejaVu Sans Mono Oblique" checksum="(null)">
   </resource>
 
+  <resource identifier="DejaVu Sans Mono for Powerline" checksum="(null)">
+  </resource>
+
+  <resource identifier="DejaVu Sans Mono for Powerline Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="DejaVu Sans Mono for Powerline Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="DejaVu Sans Mono for Powerline Oblique" checksum="(null)">
+  </resource>
+
   <resource identifier="DejaVu Sans Oblique" checksum="(null)">
   </resource>
 
@@ -2035,19 +2050,64 @@
   <resource identifier="Droid Arabic Kufi Bold" checksum="(null)">
   </resource>
 
+  <resource identifier="Droid Arabic Naskh" checksum="(null)">
+  </resource>
+
+  <resource identifier="Droid Arabic Naskh Bold" checksum="(null)">
+  </resource>
+
   <resource identifier="Droid Naskh Shift Alt" checksum="(null)">
   </resource>
 
   <resource identifier="Droid Sans" checksum="(null)">
   </resource>
 
+  <resource identifier="Droid Sans Arabic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Droid Sans Armenian" checksum="(null)">
+  </resource>
+
   <resource identifier="Droid Sans Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Droid Sans Devanagari" checksum="(null)">
+  </resource>
+
+  <resource identifier="Droid Sans Ethiopic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Droid Sans Ethiopic Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Droid Sans Fallback" checksum="(null)">
+  </resource>
+
+  <resource identifier="Droid Sans Georgian" checksum="(null)">
+  </resource>
+
+  <resource identifier="Droid Sans Hebrew" checksum="(null)">
+  </resource>
+
+  <resource identifier="Droid Sans Hebrew Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Droid Sans Japanese" checksum="(null)">
   </resource>
 
   <resource identifier="Droid Sans Mono" checksum="(null)">
   </resource>
 
-  <resource identifier="Droid Sans Semi-Bold" checksum="(null)">
+  <resource identifier="Droid Sans Mono for Powerline Plus Nerd File Types Mono" checksum="(null)">
+  </resource>
+
+  <resource identifier="Droid Sans Tamil" checksum="(null)">
+  </resource>
+
+  <resource identifier="Droid Sans Tamil Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Droid Sans Thai" checksum="(null)">
   </resource>
 
   <resource identifier="Droid Serif" checksum="(null)">
@@ -2317,6 +2377,33 @@
   <resource identifier="Inconsolata weight=275 Ultra-Expanded" checksum="(null)">
   </resource>
 
+  <resource identifier="Lexend" checksum="(null)">
+  </resource>
+
+  <resource identifier="Lexend" checksum="(null)">
+  </resource>
+
+  <resource identifier="Lexend Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Lexend Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Lexend Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Lexend Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Lexend Thin" checksum="(null)">
+  </resource>
+
+  <resource identifier="Lexend Ultra-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Lexend Ultra-Light" checksum="(null)">
+  </resource>
+
   <resource identifier="Liberation Mono" checksum="(null)">
   </resource>
 
@@ -2360,6 +2447,9 @@
   </resource>
 
   <resource identifier="Likhan Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="MT Extra" checksum="(null)">
   </resource>
 
   <resource identifier="MalOtf" checksum="(null)">
@@ -4423,6 +4513,21 @@
   <resource identifier="Sampige" checksum="(null)">
   </resource>
 
+  <resource identifier="Samsung Sans" checksum="(null)">
+  </resource>
+
+  <resource identifier="Samsung Sans Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Samsung Sans Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Samsung Sans Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Samsung Sans weight=250" checksum="(null)">
+  </resource>
+
   <resource identifier="Sans-serif" checksum="(null)">
   </resource>
 
@@ -4543,6 +4648,9 @@
   <resource identifier="Standard Symbols PS" checksum="(null)">
   </resource>
 
+  <resource identifier="Symbol" checksum="(null)">
+  </resource>
+
   <resource identifier="TAMu_Kadambri" checksum="(null)">
   </resource>
 
@@ -4645,6 +4753,9 @@
   <resource identifier="URW Gothic Semi-Bold Oblique" checksum="(null)">
   </resource>
 
+  <resource identifier="UbuntuMonoDerivativePowerline Nerd Font" checksum="(null)">
+  </resource>
+
   <resource identifier="Verdana" checksum="(null)">
   </resource>
 
@@ -4660,10 +4771,25 @@
   <resource identifier="Webdings" checksum="(null)">
   </resource>
 
+  <resource identifier="Wingdings" checksum="(null)">
+  </resource>
+
+  <resource identifier="Wingdings 2," checksum="(null)">
+  </resource>
+
+  <resource identifier="Wingdings 3," checksum="(null)">
+  </resource>
+
   <resource identifier="Z003 Medium Italic" checksum="(null)">
   </resource>
 
+  <resource identifier="icomoon" checksum="(null)">
+  </resource>
+
   <resource identifier="malayalam" checksum="(null)">
+  </resource>
+
+  <resource identifier="mtx" checksum="(null)">
   </resource>
 
   <resource identifier="orya Medium" checksum="(null)">
