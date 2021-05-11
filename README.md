@@ -1,7 +1,8 @@
 # Dotfiles
 
-###### [![License: GPL v3](https://img.shields.io/github/license/Tomoghno/dotfiles?color=169D82&label=License&logoColor=f6f6f6)](http://www.gnu.org/licenses/gpl-3.0)
+### My dotfiles for Linux/Unix.
 
+[![License: GPL v3](https://img.shields.io/github/license/Tomoghno/dotfiles?color=169D82&label=License&logoColor=f6f6f6)](http://www.gnu.org/licenses/gpl-3.0)
 
 <p>
 <a href="https://indiafightscorona.giveindia.org">
@@ -16,6 +17,3 @@ Thousands of people are dying in India for lack of Oxygen & COVID related necess
 Visit [https://indiafightscorona.giveindia.org](https://indiafightscorona.giveindia.org) and make a small donation to help us fight covid and overcome this crisis.   
 Your small help goes a long way. :heart:
 </p>
-
-
-My dotfiles for Linux/Unix.
