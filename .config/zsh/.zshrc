@@ -138,13 +138,11 @@ ex ()
 }
 
 # Aliases
-alias refresh="paru -Syu && flatpak update -y"
-alias lck="sudo rm -f /var/lib/pacman/db.lck"
+alias refresh="sudo dnf update && flatpak update -y"
 alias lock='xdg-screensaver lock'
 alias zconf='nvim /home/tomoghno/.config/zsh/.zshrc'
-alias pkg='sudo pacman'
+alias pkg='sudo dnf'
 alias pak='flatpak --user'
-alias yay='paru'
 alias edit='nvim'
 alias vim='nvim'
 

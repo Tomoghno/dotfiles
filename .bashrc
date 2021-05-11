@@ -37,12 +37,11 @@ ex ()
 }
 
 # Aliases
-alias refresh="paru -Syu && flatpak update -y"
+alias refresh="sudo dnf update && flatpak update -y"
 alias lock='xdg-screensaver lock'
 alias bconf='gedit /home/tomoghno/.bashrc'
-alias pkg='sudo pacman'
+alias pkg='sudo dnf'
 alias pak='flatpak --user'
-alias yay='paru'
 alias vim='nvim'
 
 # youtube-dl alias
