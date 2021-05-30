@@ -1,4 +1,3 @@
-#!/bin/sh
 #
 # ████████╗ ██████╗
 # ╚══██╔══╝██╔════╝	Tomoghno Sen (DoodleCraft)
@@ -37,7 +36,7 @@ ex ()
 }
 
 # Aliases
-alias refresh="sudo dnf update && flatpak update -y"
+alias refresh="sudo dnf update --refresh && flatpak update -y"
 alias lock='xdg-screensaver lock'
 alias bconf='gedit /home/tomoghno/.bashrc'
 alias pkg='sudo dnf'
@@ -69,11 +68,6 @@ alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 alias cat='bat'
 alias df='df -h'
-
-# confirm before overwriting something
-alias cp='cp -i'
-alias mv='mv -i'
-alias rm='rm -i'
 
 # terminal rickroll
 alias rr='curl -s -L https://raw.githubusercontent.com/keroserene/rickrollrc/master/roll.sh | bash'
