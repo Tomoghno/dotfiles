@@ -8,9 +8,6 @@
 "
 " A customized init.vim for neovim (https://neovim.io/)
 
-" This line makes pacman-installed global Arch Linux vim packages work.
-source /usr/share/nvim/archlinux.vim
-
 " Try to load minpac.
 packadd minpac
 
@@ -30,7 +27,8 @@ else
   call minpac#add('vim-airline/vim-airline')
   call minpac#add('vim-airline/vim-airline-themes')
   call minpac#add('ap/vim-css-color')
-  call minpac#add('tomasiser/vim-code-dark')
+  call minpac#add('rakr/vim-one')
+  call minpac#add('sheerun/vim-polyglot')
   call minpac#add('ryanoasis/vim-devicons')
   call minpac#add('junegunn/vim-emoji')
   
@@ -43,7 +41,8 @@ else
   let g:airline#extensions#tabline#enabled = 1
   let g:airline_powerline_fonts = 1
   let g:airline#extensions#tabline#buffer_nr_show = 1
-  let g:airline_theme ='codedark'
+  let g:airline_theme ='one'
+  let g:one_allow_italics = 1
   
   " Settings for plugin-less environment.
   syntax on
@@ -51,7 +50,8 @@ else
   set nobackup
   set noswapfile
   set clipboard=unnamedplus
-  colorscheme codedark
+  set background=dark
+  colorscheme one
   set termguicolors
   set mouse=a
 endif
