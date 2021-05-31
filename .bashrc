@@ -8,6 +8,12 @@
 #
 # A customized .bashrc
 
+# Prompt 1
+PS1="\n \[\033[0;34m\]┌─────(\[\033[1;35m\]\u\[\033[0;34m\])─────(\[\033[1;32m\]\w\[\033[0;34m\]) \n └> \[\033[1;36m\]\$ \[\033[0m\]"
+
+# Shopt
+shopt -s autocd
+
 ### ARCHIVE EXTRACTION
 # usage: ex <file>
 ex ()
