@@ -23,7 +23,33 @@ fi
 ### EXPORT
 export HISTORY_IGNORE="(ls|cd|pwd|exit|sudo reboot|history|cd -|cd ..)"
 
-### Keybinding
+### OH MY ZSH ###
+
+# Path to your oh-my-zsh installation.
+ZSH=$HOME/.config/oh-my-zsh
+
+# Zsh Theme
+ZSH_THEME="powerlevel10k/powerlevel10k"
+
+# Would you like to use another custom folder than $ZSH/custom?
+# ZSH_CUSTOM=/path/to/new-custom-folder
+
+# Which plugins would you like to load?
+# Add wisely, as too many plugins slow down shell startup.
+# Defning the plugins needs to happen before sourcing oh-my-zsh.
+plugins=(git
+         zsh-syntax-highlighting
+         zsh-autosuggestions
+         sudo)
+
+# Sourcing oh-my-zsh
+# Your plugins will not work without this source.
+source $ZSH/oh-my-zsh.sh
+
+# automatically update without prompting
+DISABLE_UPDATE_PROMPT="true"
+
+### BINDKEY
 bindkey -v
 
 ### ARCHIVE EXTRACTION
@@ -52,32 +78,6 @@ ex ()
     echo "'$1' is not a valid file"
   fi
 }
-
-### OH MY ZSH ###
-
-# Path to your oh-my-zsh installation.
-ZSH=$HOME/.config/oh-my-zsh
-
-# Zsh Theme
-ZSH_THEME="powerlevel10k/powerlevel10k"
-
-# Would you like to use another custom folder than $ZSH/custom?
-# ZSH_CUSTOM=/path/to/new-custom-folder
-
-# Which plugins would you like to load?
-# Add wisely, as too many plugins slow down shell startup.
-# Defning the plugins needs to happen before sourcing oh-my-zsh.
-plugins=(git
-         zsh-syntax-highlighting
-         zsh-autosuggestions
-         sudo)
-
-# Sourcing oh-my-zsh
-# Your plugins will not work without this source.
-source $ZSH/oh-my-zsh.sh
-
-# automatically update without prompting
-DISABLE_UPDATE_PROMPT="true"
 
 ### Aliases
 alias refresh="sudo dnf update --refresh && flatpak update"
