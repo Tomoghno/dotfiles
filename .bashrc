@@ -11,8 +11,9 @@
 # Prompt 1
 PS1="\n \[\033[0;34m\]┌─────(\[\033[1;35m\]\u\[\033[0;34m\])─────(\[\033[1;32m\]\w\[\033[0;34m\]) \n └> \[\033[1;36m\]\$ \[\033[0m\]"
 
-# Shopt
+# Options
 shopt -s autocd
+set -o vi
 
 ### ARCHIVE EXTRACTION
 # usage: ex <file>
@@ -44,7 +45,7 @@ ex ()
 # Aliases
 alias refresh="sudo dnf update --refresh && flatpak update -y"
 alias lock='xdg-screensaver lock'
-alias bconf='gedit /home/tomoghno/.bashrc'
+alias bconf='nvim /home/tomoghno/.bashrc'
 alias pkg='sudo dnf'
 alias pak='flatpak --user'
 alias vim='nvim'
