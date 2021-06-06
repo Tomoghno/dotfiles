@@ -13,7 +13,6 @@ PS1="\n \[\033[0;34m\]┌─────(\[\033[1;35m\]\u\[\033[0;34m\])──�
 
 # Options
 shopt -s autocd
-set -o vi
 
 ### ARCHIVE EXTRACTION
 # usage: ex <file>

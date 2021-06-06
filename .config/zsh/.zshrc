@@ -49,9 +49,6 @@ source $ZSH/oh-my-zsh.sh
 # automatically update without prompting
 DISABLE_UPDATE_PROMPT="true"
 
-### BINDKEY
-bindkey -v
-
 ### ARCHIVE EXTRACTION
 # usage: ex <file>
 ex ()
