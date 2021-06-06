@@ -85,6 +85,7 @@ alias pak='flatpak --user'
 alias yay='paru'
 alias edit='nvim'
 alias vim='nvim'
+alias vi='nvim'
 
 ### youtube-dl alias
 alias yt='youtube-dl'

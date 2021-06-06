@@ -47,7 +47,9 @@ alias lock='xdg-screensaver lock'
 alias bconf='nvim /home/tomoghno/.bashrc'
 alias pkg='sudo dnf'
 alias pak='flatpak --user'
+alias edit='nvim'
 alias vim='nvim'
+alias vi='nvim'
 
 # youtube-dl alias
 alias yt='youtube-dl'
