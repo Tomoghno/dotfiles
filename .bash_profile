@@ -1,4 +1,3 @@
-#! /bin/bash
 #
 #████████╗ ██████╗
 #╚══██╔══╝██╔════╝	Tomoghno Sen (DoodleCraft)
@@ -28,13 +27,11 @@ if [ -d "$HOME/.local/bin" ] ; then
 fi
 PATH="/usr/games:$PATH"
 
-# Environment Variables
+# QT5 themeing support in GNOME.
 QT_AUTO_SCREEN_SCALE_FACTOR=1
 QT_QPA_PLATFORMTHEME="gnome"
-QT_STYLE_OVERRIDE="kvantum-dark"
 
 # ~/ Clean-up:
-export ZDOTDIR="${XDG_CONFIG_HOME:-$HOME/.config}/zsh"
 export WINEPREFIX="${XDG_DATA_HOME:-$HOME/.local/share}/wineprefixes/default"
 export GTK2_RC_FILES="${XDG_CONFIG_HOME:-$HOME/.config}/gtk-2.0/gtkrc-2.0"
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"

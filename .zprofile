@@ -1,4 +1,3 @@
-#!/bin/sh
 #
 #████████╗ ██████╗
 #╚══██╔══╝██╔════╝	Tomoghno Sen (DoodleCraft)
@@ -8,14 +7,6 @@
 #   ╚═╝   ╚═════╝ 
 #
 # A customized .zprofile File
-
-# if running bash
-if [ -n "$BASH_VERSION" ]; then
-    # include .bashrc if it exists
-    if [ -f "$HOME/.bashrc" ]; then
-	. "$HOME/.bashrc"
-    fi
-fi
 
 # set PATH so it includes user's private bin if it exists
 if [ -d "$HOME/bin" ] ; then
@@ -28,10 +19,9 @@ if [ -d "$HOME/.local/bin" ] ; then
 fi
 PATH="/usr/games:$PATH"
 
-# Environment Variables
+# QT5 themeing support in GNOME.
 QT_AUTO_SCREEN_SCALE_FACTOR=1
 QT_QPA_PLATFORMTHEME="gnome"
-QT_STYLE_OVERRIDE="kvantum-dark"
 
 # ~/ Clean-up:
 export ZDOTDIR="${XDG_CONFIG_HOME:-$HOME/.config}/zsh"
