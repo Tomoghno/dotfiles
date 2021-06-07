@@ -21,7 +21,11 @@ fi
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 ### EXPORT
-export HISTORY_IGNORE="(ls|cd|pwd|exit|sudo reboot|history|cd -|cd ..)"
+export HISTORY_IGNORE="(ls|cd|pwd|exit|reboot|history|cd -|cd ..)"
+
+### "bat" as manpager
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+export TERM="xterm-256color"
 
 ### OH MY ZSH ###
 
@@ -37,8 +41,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Which plugins would you like to load?
 # Add wisely, as too many plugins slow down shell startup.
 # Defning the plugins needs to happen before sourcing oh-my-zsh.
-plugins=(git
-         zsh-syntax-highlighting
+plugins=(zsh-syntax-highlighting
          zsh-autosuggestions
          sudo)
 
