@@ -22,10 +22,9 @@ fi
 
 ### EXPORT
 export HISTORY_IGNORE="(ls|cd|pwd|exit|reboot|history|cd -|cd ..)"
-
-### "bat" as manpager
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 export TERM="xterm-256color"
+export EDITOR="nvim"
 
 ### OH MY ZSH ###
 
