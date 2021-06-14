@@ -8,11 +8,15 @@
 #
 # A customized .bashrc
 
-# Prompt 1
-PS1="\n \[\033[0;34m\]┌─────(\[\033[1;35m\]\u\[\033[0;34m\])─────(\[\033[1;32m\]\w\[\033[0;34m\]) \n └> \[\033[0m\]"
+# Prompt
+PS1="\e[0;32m\u\e[0m@\e[0;32m\H\e[0m[\e[0;34m\w\e[0m] \e[1;33m~>>\e[0m "
+PS2='\e[1;33m>>\e[0m '
 
-# Options
-shopt -s autocd
+### SET VI MODE ###
+# Comment this line out to enable default emacs-like bindings
+set -o vi
+bind -m vi-command 'Control-l: clear-screen'
+bind -m vi-insert 'Control-l: clear-screen'
 
 ### ARCHIVE EXTRACTION
 # usage: ex <file>

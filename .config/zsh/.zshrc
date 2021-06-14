@@ -22,7 +22,6 @@ fi
 
 ### EXPORT
 export HISTORY_IGNORE="(ls|cd|pwd|exit|reboot|history|cd -|cd ..)"
-export TERM="xterm-256color"
 export EDITOR="nvim"
 
 ### OH MY ZSH ###
@@ -49,6 +48,10 @@ source $ZSH/oh-my-zsh.sh
 
 # automatically update without prompting
 DISABLE_UPDATE_PROMPT="true"
+
+### SET VI MODE ###
+# Comment this line out to enable default emacs-like bindings
+bindkey -v
 
 ### ARCHIVE EXTRACTION
 # usage: ex <file>
