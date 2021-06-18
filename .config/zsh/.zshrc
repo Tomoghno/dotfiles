@@ -84,7 +84,6 @@ ex ()
 alias refresh="sudo dnf update --refresh && flatpak update"
 alias lock='xdg-screensaver lock'
 alias zconf='nvim /home/tomoghno/.config/zsh/.zshrc'
-alias pkg='sudo dnf'
 alias edit='nvim'
 alias vim='nvim'
 alias vi='nvim'
