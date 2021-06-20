@@ -10,18 +10,15 @@
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Managing Plugins
+" => Managing Plugin Settings
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " Plugin Source.
 	source $HOME/.config/nvim/pack/plugins.vim
-
-" Plugin settings here.
-  let g:airline#extensions#tabline#enabled = 1
-  let g:airline_powerline_fonts = 1
-  let g:airline#extensions#tabline#buffer_nr_show = 1
-  let g:airline_theme ='one'
-  let g:one_allow_italics = 1
+" vim-airline settings.
+  source $HOME/.config/nvim/pack/plug-config/airline.vim
+" vim-one settings.
+  source $HOME/.config/nvim/pack/plug-config/one.vim
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General Settings
