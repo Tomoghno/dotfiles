@@ -9,8 +9,13 @@
 # A customized .bashrc
 
 # Prompt
-PS1="\e[0;32m\u\e[0m@\e[0;32m\H\e[0m[\e[0;34m\w\e[0m] \e[1;33m~>>\e[0m "
-PS2='\e[1;33m>>\e[0m '
+PS1="\e[0;36m\e[0m \e[0;34m\w\e[0m \e[0;31m>\e[0m\e[0;32m>\e[0m\e[0;33m>\e[0m "
+PS2='\e[0;31m>\e[0m\e[0;32m>\e[0m\e[0;33m>\e[0m '
+
+### SHOPT
+shopt -s autocd # change to named directory
+shopt -s cdspell # autocorrects cd misspellings
+shopt -s cmdhist # save multi-line commands in history as single line
 
 ### SET VI MODE ###
 # Comment this line out to enable default emacs-like bindings
