@@ -8,20 +8,23 @@
 "
 " A customized init.vim for neovim (https://neovim.io/)
 
-
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Managing Plugin Settings
+" => Plugin Source.
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
 " Plugin Source.
-	source $HOME/.config/nvim/pack/plugins.vim
-" vim-airline settings.
-  source $HOME/.config/nvim/pack/plug-config/airline.vim
-" vim-one settings.
-  source $HOME/.config/nvim/pack/plug-config/one.vim
+	source $HOME/.config/nvim/vim-plug/plugins.vim
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => General Settings
+" => Managing Plugin Settings.
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" vim-airline settings.
+  source $HOME/.config/nvim/vim-plug/plug-config/airline.vim
+" vim-one settings.
+  source $HOME/.config/nvim/vim-plug/plug-config/one.vim
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => General Settings.
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
   syntax on
   set encoding=utf-8
