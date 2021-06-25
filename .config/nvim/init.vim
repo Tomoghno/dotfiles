@@ -18,9 +18,9 @@
 " => Managing Plugin Settings.
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-" vim-airline settings.
+" airlineline settings.
   source $HOME/.config/nvim/vim-plug/plug-config/airline.vim
-" vim-one settings.
+" one theme settings.
   source $HOME/.config/nvim/vim-plug/plug-config/one.vim
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
