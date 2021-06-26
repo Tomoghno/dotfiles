@@ -8,9 +8,8 @@
 #
 # A customized .bashrc
 
-# Prompt
-PS1="\e[0;36m\e[0m \e[0;34m\w\e[0m \e[0;31m>\e[0m\e[0;32m>\e[0m\e[0;33m>\e[0m "
-PS2='\e[0;31m>\e[0m\e[0;32m>\e[0m\e[0;33m>\e[0m '
+### Prompt theme
+source $HOME/.config/bash/themes/agnoster.sh
 
 ### SHOPT
 shopt -s autocd # change to named directory
